@@ -1,0 +1,58 @@
+[
+  {
+    "name": "root",
+    "type": "Folder",
+    "files": [
+      {
+        "name": "File - 1",
+        "type": "File"
+      },
+      {
+        "name": "File - 2",
+        "type": "File"
+      },
+      {
+        "name": "Inner Folder",
+        "type": "Folder",
+        "files": [
+          {
+            "name": "Inner File - 1",
+            "type": "File"
+          },
+          {
+            "name": "Inner-File - 2",
+            "type": "File"
+          },
+          {
+            "name": "Inner-File-Folder - 1",
+            "type": "Folder",
+            "files": [
+              {
+                "name": "Inner Folder File - 1",
+                "type": "File"
+              },
+              {
+                "name": "Inner Folder File - 2",
+                "type": "File"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "type": "Folder",
+    "files": [
+      {
+        "name": "index.js",
+        "type": "File"
+      }
+    ]
+  },
+  {
+    "name": "package.json",
+    "type": "file"
+  }
+]

@@ -1,7 +1,12 @@
 .App {
-  text-align: center;
+  margin-left: 8rem;
 }
-
+.folder__name,
+.file__name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
